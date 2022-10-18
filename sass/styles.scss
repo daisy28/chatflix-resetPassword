@@ -1,0 +1,24 @@
+// custom variables
+
+
+
+// import the functions and variables
+@import '../node_modules/bootstrap/scss/functions';
+@import '../node_modules/bootstrap/scss/variables';
+
+
+$custom-theme-colors: (
+   "background": #030B19,
+   "backgroungTwo": #010205,
+   "arrow": #F0F6FE,
+   "cancel": #BBC2CD,
+   "text-color": #8E9AAC,
+   "btn-color": #206CDF,
+);
+
+$theme-colors: map-merge($custom-theme-colors, $theme-colors);
+
+
+
+// import bootstrap
+@import '../node_modules/bootstrap/scss/bootstrap';
